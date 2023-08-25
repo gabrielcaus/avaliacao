@@ -52,6 +52,33 @@
     background-color: var(--branco);
 }
 
+.titulo__cabecalho{
+    display:none
+}
+.logo{
+        width: 200px!important;
+}
+@media screen and (min-width: 825px){
+    .titulo__cabecalho{
+        font-size: 38px;
+        font-family: var(--font-sucundaria);
+        color: rgb(43, 52, 226);
+        display: block;
+    }
+
+    .Imagem{
+        font-size: 45px;
+        font-family: var(--font-sucundaria);
+        display: block;
+    }
+    .container{
+        font-size: 45px;
+        font-family: var(--font-sucundaria);
+        display: flex;
+
+    }
+}
+
     
 
 
